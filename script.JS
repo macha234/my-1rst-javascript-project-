@@ -27,14 +27,14 @@ console.log(divisionAns)
 division()
 
 
-function multilication(){
+function multilication(num1,mum2){
    // multilication
 var mul1 =26
 var mul2 =26
 var multilicationAns = mul1 * mul2
 console.log(multilicationAns) 
 }
-multilication()
+multilication(26,26)
 
 
 function subtruction(){
@@ -47,9 +47,9 @@ console.log(subtructionAns)
 subtruction()
 
 
-function CheckName(){
+function CheckName(age){
  // conditions
-var age= 12
+
 
 if(age >= 12){
 
@@ -62,11 +62,10 @@ else{
     console.log("is not above 12")
 }
 }
-CheckName()
+CheckName(12)
 
 
-function CheckColor(){
-    var favorite_color ="Blue"
+function CheckColor(favorite_color){
 
 if(favorite_color == "Blue"){
     console.log("correct")
@@ -76,5 +75,5 @@ else{
     console.log("incorrect")
 }
 }
-CheckColor()
+CheckColor("Blue")
 
