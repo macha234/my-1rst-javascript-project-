@@ -77,3 +77,25 @@ else{
 }
 CheckColor("Blue")
 
+// arrays
+
+var y = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,]
+
+console.log(y.length)
+
+
+// using index to retrive value at index position
+
+var names = ["basil","joseph", "shantel", "jessica"]
+
+var name1 = names[0]
+var name2 = names[1]
+var name3 = names[2]
+var name4 = names[3] 
+
+console.log(name1, name2, name3, name4)
+
+
+var varjess = names[names.length - 1]
+
+console.log(varjess)
