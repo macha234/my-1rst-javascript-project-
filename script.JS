@@ -99,3 +99,21 @@ console.log(name1, name2, name3, name4)
 var varjess = names[names.length - 1]
 
 console.log(varjess)
+
+//for loops
+
+var animals = ["dog", "cat", "cow", "sheep", "goat"]
+
+//  for(let i = 0; i < animals.length; i++) {
+//     console.log (animals[i])
+// } 
+
+var colors = ["red", "blue", "orange", "green", "yellow"]
+
+for(let i = 0; i < colors.length; i++) {
+    console.log (colors[i])
+}
+
+animals.forEach(function (animal) {
+    console.log(animal)
+})
