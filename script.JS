@@ -117,3 +117,34 @@ for(let i = 0; i < colors.length; i++) {
 animals.forEach(function (animal) {
     console.log(animal)
 })
+
+
+
+// bojects
+var car = {
+    color: "orange",
+    brand: "Lamborghini",
+    "manufacture date": "February 2011",
+    model: "Lamborghini Aventador",
+
+    // method
+
+    accelarate: function () {
+        console.log("car speed increased")
+    },
+
+    break: function () {
+        console.log("car stopped")
+    }
+
+}
+
+console.table(car)
+// dot nottation method
+console.log(car.color)
+console.log(car.brand)
+console.log(car.accelarate ())
+console.log(car.break ())
+
+// square bracket nottation
+console.log(car["manufacture date"])
