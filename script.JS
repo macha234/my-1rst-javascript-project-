@@ -148,3 +148,30 @@ console.log(car.break ())
 
 // square bracket nottation
 console.log(car["manufacture date"])
+
+var person =  {
+    gender: "boy",
+    age: "12",
+    height: "5 feet tall",
+    name: "Basil Macharia",
+
+    walk: function () {
+        console.log("starts moving")
+    }
+}
+
+console.table(person)
+
+//algorithms
+var arr = [1, 2, 3, 4, 5 ,6, 7, 8, 9, 10];
+
+for (let i = arr.length - 1; i >= 0; i--){
+    console.log(arr[i])
+}
+
+var friends = ["Jabali", "Kweli", "Peter", "kamau", "Liam"];
+var number = 1;
+for (let i = friends.length -1; i >= 0; i--){
+    let count = number++;
+    console.log(count, friends[i])
+}
