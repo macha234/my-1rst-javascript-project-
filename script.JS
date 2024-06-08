@@ -175,3 +175,12 @@ for (let i = friends.length -1; i >= 0; i--){
     let count = number++;
     console.log(count, friends[i])
 }
+
+//multipliction using for loops
+for (let x = 2; x <= 10; x++){
+    for (let i = 1; i <= 10; i++){
+        console.log(x + " + " + i + " = " + (x + i));
+    }
+    console.log("                                                                                                                                                                        ")
+}
+
