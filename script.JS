@@ -184,3 +184,54 @@ for (let x = 2; x <= 10; x++){
     console.log("                                                                                                                                                                        ")
 }
 
+var nums = [1, -2, 4, -6, 8];
+
+
+//Switch statement
+
+let age = "12"
+
+switch (true) {
+    case age > 18:
+    console.log("the person is qualified to get an ID")
+    break;
+
+    case age < 18:
+        console.log("the person is not qualified to get an ID")
+        break;
+
+    case age === 18:
+        console.log("wait for one more year to get an ID")
+      break;  
+        
+default:
+    console.log("all cases are false")
+}
+
+
+let text = "";
+var val = 3;
+var months = ["january", "february", "march", "april"]
+switch (val) {
+    case 0:
+    text += months[0]
+    break;
+
+    case 1:
+    text += months[1]
+    break;
+
+    case 2:
+    text += months[2]
+    break;
+
+    case 3:
+    text += months[3]
+    break;
+
+    default:
+     console.log("all cases are faulse")
+}
+
+console.log(text);
+
