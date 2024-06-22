@@ -235,3 +235,44 @@ switch (val) {
 
 console.log(text);
 
+//arrey methofs
+//find method
+
+// const my_friends = ["Jabali", "ewings", "kweli", "shantel"]
+
+// const val2 = my_friends.find(function (b) {
+//     return b === "kweli"
+// });
+
+// console.log(val2);
+
+// names.forEach(function (name) {
+//     console.log(names)
+// });
+
+
+//pushing elements to arrays
+
+// names.push("sara")
+// names.push("evans")
+// names.push("erick")
+// names.push("kevin")
+
+    //pushing at the begining of the arrey
+    // names.unshift("sara")
+    // names.unshift("kevin")
+    // names.unshift("erick")
+    // names.unshift("evans")
+
+    // console.log(names);
+
+    //removing at the end
+    //names.pop()
+    //names..pop()
+
+    //removing at the begining
+    names.shift()
+    names.shift()
+    names.shift()
+
+    console.log(names)
