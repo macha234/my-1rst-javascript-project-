@@ -238,7 +238,7 @@ console.log(text);
 //arrey methofs
 //find method
 
-// const my_friends = ["Jabali", "ewings", "kweli", "shantel"]
+const my_friends = ["Jabali", "ewings", "kweli", "shantel"]
 
 // const val2 = my_friends.find(function (b) {
 //     return b === "kweli"
@@ -276,3 +276,21 @@ console.log(text);
     names.shift()
 
     console.log(names)
+
+//    var MyFriends = my_friends.forEach(function(p){
+//     if(p === "kweli")
+//         {
+//             return"basil"
+//         }
+        
+//     })
+
+
+var MyFriends2 = my_friends.forEach(function(d){
+    if(d === "shantel")
+    {
+        return "shantel"
+    }
+})
+
+console.log(MyFriends2)
