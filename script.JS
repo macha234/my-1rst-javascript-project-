@@ -286,11 +286,34 @@ const my_friends = ["Jabali", "ewings", "kweli", "shantel"]
 //     })
 
 
-var MyFriends2 = my_friends.forEach(function(d){
+ my_friends.forEach(function(d){
     if(d === "shantel")
     {
-        return "shantel"
+        console.log("shantel")
     }
 })
 
-console.log(MyFriends2)
+// console.log(MyFriends2)
+
+
+//  my_friends.forEach(function(q){
+//     if (q === "ewings")
+//     {
+//         console.log("dog")
+//         console.log("cat")
+
+//     }
+// else{
+//     console.log("it is false")
+// }
+// })
+
+const numbers = [2, 3, 5, 7, 8, 9, 12]
+
+var sum =0
+
+numbers.forEach(function(c){
+    sum = sum + c
+})
+
+console.log(sum)
